@@ -5,7 +5,7 @@
     <string name="open">Open</string>
     <string name="close">Close</string>
     <string name="nav_background_work">Фоновая задача</string>
-    <string name="background_work_description">Фоновая задача выполняется через WorkManager (Worker). Запуск возможен только при наличии интернет-соединения. Задача имитирует загрузку (~10 с).</string>
+    <string name="background_work_description">Фоновая задача выполняется через WorkManager. Запуск возможен только при наличии интернет-соединения. Задача имитирует загрузку (~10 с).</string>
     <string name="background_work_start">Запустить фоновую задачу</string>
     <string name="work_status_idle">Статус: ожидание</string>
     <string name="work_status_enqueued">Статус: в очереди (enqueued)</string>
@@ -13,8 +13,8 @@
     <string name="work_status_finished">Статус: завершена (finished)</string>
     <string name="work_status_failed">Статус: ошибка (failed)</string>
     <string name="work_status_cancelled">Статус: отменена (cancelled)</string>
-    <string name="nav_compass">Компас (датчики)</string>
-    <string name="nav_camera_collage">Коллаж (камера)</string>
+    <string name="nav_compass">Компас</string>
+    <string name="nav_camera_collage">Камера)</string>
     <string name="nav_microphone">Голосовая заметка</string>
     <string name="compass_description">Определение направления на север по магнитометру и акселерометру. Держите телефон горизонтально и отойдите от металлических предметов.</string>
     <string name="compass_waiting">Ожидание данных датчиков…</string>
@@ -62,7 +62,7 @@
     <string name="profile_fill_all">Заполните все поля</string>
     <string name="profile_invalid_numbers">Некорректный возраст или сумма</string>
     <string name="profile_summary">Имя: %1$s\nВозраст: %2$d\nЛюбимая еда: %3$s\nДеньги: %4$d ₽</string>
-    <string name="files_description">Текстовые заметки во внутренней памяти приложения. FAB — создать запись. Кнопка ниже — простая обработка: перевод текста файла в верхний регистр.</string>
+    <string name="files_description">Текстовые заметки во внутренней памяти приложения. Кнопка ниже — простая обработка: перевод текста файла в верхний регистр.</string>
     <string name="files_empty">Файлов пока нет. Нажмите +</string>
     <string name="files_selected">Выбран: %1$s</string>
     <string name="files_preview_label">Содержимое файла</string>
@@ -101,7 +101,6 @@
     <string name="invalid_password">Пароль не менее 6 символов</string>
     <string name="firebase_config_placeholder">Замените app/google-services.json файлом из Firebase Console</string>
     <string name="firebase_invalid_api_key">Неверный API key Firebase</string>
-    <string name="firebase_config_hint">Скачайте google-services.json: Firebase Console → Project settings → Your apps → Android (ru.mirea.pavlovve.mireaproject) → Download. Включите Email/Password в Authentication. Пересоберите проект.</string>
     <string name="nav_network">Сеть (Retrofit)</string>
     <string name="network_description">Загрузка данных с jsonplaceholder.typicode.com через Retrofit.</string>
     <string name="network_load">Загрузить пост</string>
@@ -111,7 +110,6 @@
     <string name="nav_places">Заведения</string>
     <string name="places_hint_select">Нажмите на маркер или строку в списке</string>
     <string name="places_fab_fit">Показать все заведения на карте</string>
-    <string name="mapkit_key_missing">Добавьте MAPKIT_API_KEY в local.properties и пересоберите проект</string>
     <string name="place_1_title">Кафе «Пушкин»</string>
     <string name="place_1_address">ул. Тверской бульвар, 26, Москва</string>
     <string name="place_1_desc">Русская кухня и интерьер в стиле XIX века.</string>
