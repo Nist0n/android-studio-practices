@@ -13,4 +13,16 @@
         android:id="@+id/nav_background_work"
         android:title="@string/nav_background_work"/>
 
+    <item
+        android:id="@+id/nav_compass"
+        android:title="@string/nav_compass"/>
+
+    <item
+        android:id="@+id/nav_camera_collage"
+        android:title="@string/nav_camera_collage"/>
+
+    <item
+        android:id="@+id/nav_microphone"
+        android:title="@string/nav_microphone"/>
+
 </menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compass_directions">
+        <item>Север</item>
+        <item>Северо-восток</item>
+        <item>Восток</item>
+        <item>Юго-восток</item>
+        <item>Юг</item>
+        <item>Юго-запад</item>
+        <item>Запад</item>
+        <item>Северо-запад</item>
+    </string-array>
+</resources>

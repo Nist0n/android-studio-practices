@@ -41,6 +41,12 @@ public class MainActivity extends AppCompatActivity {
                     selectedFragment = new WebViewFragment();
                 } else if (item.getItemId() == R.id.nav_background_work) {
                     selectedFragment = new BackgroundWorkFragment();
+                } else if (item.getItemId() == R.id.nav_compass) {
+                    selectedFragment = new CompassFragment();
+                } else if (item.getItemId() == R.id.nav_camera_collage) {
+                    selectedFragment = new CameraCollageFragment();
+                } else if (item.getItemId() == R.id.nav_microphone) {
+                    selectedFragment = new MicrophoneFragment();
                 }
 
                 if (selectedFragment != null) {
