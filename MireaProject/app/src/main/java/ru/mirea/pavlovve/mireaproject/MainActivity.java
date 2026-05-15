@@ -35,7 +35,11 @@ public class MainActivity extends AppCompatActivity {
 
                 Fragment selectedFragment = null;
 
-                if (item.getItemId() == R.id.nav_data) {
+                if (item.getItemId() == R.id.nav_profile) {
+                    selectedFragment = new ProfileFragment();
+                } else if (item.getItemId() == R.id.nav_files) {
+                    selectedFragment = new FilesFragment();
+                } else if (item.getItemId() == R.id.nav_data) {
                     selectedFragment = new DataFragment();
                 } else if (item.getItemId() == R.id.nav_web) {
                     selectedFragment = new WebViewFragment();
