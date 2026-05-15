@@ -1,7 +1,17 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     id("com.google.gms.google-services")
 }
+
+val localProperties = Properties().apply {
+    val f = rootProject.file("local.properties")
+    if (f.exists()) {
+        f.inputStream().use { load(it) }
+    }
+}
+val mapkitApiKey: String = localProperties.getProperty("MAPKIT_API_KEY") ?: ""
 
 android {
     namespace = "ru.mirea.pavlovve.mireaproject"
@@ -19,6 +29,12 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField("String", "MAPKIT_API_KEY", "\"${mapkitApiKey.replace("\"", "\\\"")}\"")
+    }
+
+    buildFeatures {
+        buildConfig = true
     }
 
     buildTypes {
@@ -50,6 +66,9 @@ dependencies {
 
     implementation("com.squareup.retrofit2:retrofit:2.11.0")
     implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+
+    implementation("com.yandex.android:maps.mobile:4.33.1-lite")
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

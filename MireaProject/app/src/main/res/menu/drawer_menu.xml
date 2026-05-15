@@ -22,6 +22,10 @@
         android:title="@string/nav_network"/>
 
     <item
+        android:id="@+id/nav_places"
+        android:title="@string/nav_places"/>
+
+    <item
         android:id="@+id/nav_background_work"
         android:title="@string/nav_background_work"/>
 

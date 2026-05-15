@@ -65,6 +65,8 @@ public class MainActivity extends AppCompatActivity {
                     selectedFragment = new MicrophoneFragment();
                 } else if (item.getItemId() == R.id.nav_network) {
                     selectedFragment = new NetworkFragment();
+                } else if (item.getItemId() == R.id.nav_places) {
+                    selectedFragment = new PlacesFragment();
                 }
 
                 if (selectedFragment != null) {

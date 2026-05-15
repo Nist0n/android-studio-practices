@@ -108,4 +108,20 @@
     <string name="network_post_fmt">ID: %1$d\n\n%2$s\n\n%3$s</string>
     <string name="network_error">Ошибка загрузки</string>
     <string name="network_error_detail">Ошибка: %1$s</string>
+    <string name="nav_places">Заведения</string>
+    <string name="places_hint_select">Нажмите на маркер или строку в списке</string>
+    <string name="places_fab_fit">Показать все заведения на карте</string>
+    <string name="mapkit_key_missing">Добавьте MAPKIT_API_KEY в local.properties и пересоберите проект</string>
+    <string name="place_1_title">Кафе «Пушкин»</string>
+    <string name="place_1_address">ул. Тверской бульвар, 26, Москва</string>
+    <string name="place_1_desc">Русская кухня и интерьер в стиле XIX века.</string>
+    <string name="place_2_title">White Rabbit</string>
+    <string name="place_2_address">Смоленская пл., 3, Москва</string>
+    <string name="place_2_desc">Панорамный ресторан современной кухни.</string>
+    <string name="place_3_title">Третьяковская галерея — кафе</string>
+    <string name="place_3_address">Лаврушинский пер., 12, Москва</string>
+    <string name="place_3_desc">Кофе и закуски у музея русского искусства.</string>
+    <string name="place_4_title">РТУ МИРЭА (кампус)</string>
+    <string name="place_4_address">просп. Вернадского, 78, Москва</string>
+    <string name="place_4_desc">Учебный корпус: точка ориентира на юго-западе города.</string>
 </resources>
