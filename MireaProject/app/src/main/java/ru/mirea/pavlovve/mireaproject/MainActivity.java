@@ -25,12 +25,10 @@ public class MainActivity extends AppCompatActivity {
 
         navView = findViewById(R.id.nav_view);
 
-        // первый фрагмент при запуске
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.fragment_container, new DataFragment())
                 .commit();
 
-        // обработка нажатий меню
         navView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -41,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
                     selectedFragment = new DataFragment();
                 } else if (item.getItemId() == R.id.nav_web) {
                     selectedFragment = new WebViewFragment();
+                } else if (item.getItemId() == R.id.nav_background_work) {
+                    selectedFragment = new BackgroundWorkFragment();
                 }
 
                 if (selectedFragment != null) {

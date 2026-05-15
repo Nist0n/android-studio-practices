@@ -4,4 +4,13 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="nav_background_work">Фоновая задача</string>
+    <string name="background_work_description">Фоновая задача выполняется через WorkManager (Worker). Запуск возможен только при наличии интернет-соединения. Задача имитирует загрузку (~10 с).</string>
+    <string name="background_work_start">Запустить фоновую задачу</string>
+    <string name="work_status_idle">Статус: ожидание</string>
+    <string name="work_status_enqueued">Статус: в очереди (enqueued)</string>
+    <string name="work_status_running">Статус: выполняется (running)</string>
+    <string name="work_status_finished">Статус: завершена (finished)</string>
+    <string name="work_status_failed">Статус: ошибка (failed)</string>
+    <string name="work_status_cancelled">Статус: отменена (cancelled)</string>
 </resources>

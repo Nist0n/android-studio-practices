@@ -58,19 +58,17 @@ public class WebViewFragment extends Fragment {
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        webSettings.setDomStorageEnabled(true);      // Включает localStorage
-        webSettings.setLoadWithOverviewMode(true);   // Загружает страницу с обзорным режимом
-        webSettings.setUseWideViewPort(true);        // Поддержка широкого viewport
-        webSettings.setBuiltInZoomControls(true);    // Включение зума
-        webSettings.setDisplayZoomControls(false);   // Скрытие кнопок зума
-        webSettings.setCacheMode(WebSettings.LOAD_DEFAULT); // Режим кэширования
-        webSettings.setAllowFileAccess(true);        // Доступ к файлам
+        webSettings.setDomStorageEnabled(true);
+        webSettings.setLoadWithOverviewMode(true);
+        webSettings.setUseWideViewPort(true);
+        webSettings.setBuiltInZoomControls(true);
+        webSettings.setDisplayZoomControls(false);
+        webSettings.setCacheMode(WebSettings.LOAD_DEFAULT);
+        webSettings.setAllowFileAccess(true);
 
-        // Установка WebViewClient для загрузки страниц внутри WebView
         webView.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                // Загружаем все ссылки внутри WebView
                 view.loadUrl(url);
                 return true;
             }
@@ -78,7 +76,6 @@ public class WebViewFragment extends Fragment {
             @Override
             public void onPageFinished(WebView view, String url) {
                 super.onPageFinished(view, url);
-                // Страница загружена успешно
             }
 
             @Override

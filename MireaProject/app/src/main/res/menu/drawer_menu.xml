@@ -9,4 +9,8 @@
         android:id="@+id/nav_web"
         android:title="Web Screen"/>
 
+    <item
+        android:id="@+id/nav_background_work"
+        android:title="@string/nav_background_work"/>
+
 </menu>
