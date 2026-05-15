@@ -18,6 +18,10 @@
         android:title="Web Screen"/>
 
     <item
+        android:id="@+id/nav_network"
+        android:title="@string/nav_network"/>
+
+    <item
         android:id="@+id/nav_background_work"
         android:title="@string/nav_background_work"/>
 

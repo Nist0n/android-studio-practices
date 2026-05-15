@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">firebaseauth_2_4</string>
+
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+
+    <string name="create_account">Create Account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+
+    <string name="signed_out">Signed Out</string>
+    <string name="auth_failed">Authentication failed</string>
+
+</resources>
