@@ -33,8 +33,7 @@ import com.yandex.runtime.image.ImageProvider;
 import java.util.Arrays;
 import java.util.List;
 
-import ru.mirea.pavlovve.mireaproject.places.Place;
-import ru.mirea.pavlovve.mireaproject.places.PlacesAdapter;
+import ru.mirea.pavlovve.mireaproject.places.*;
 
 public class PlacesFragment extends Fragment implements PlacesAdapter.OnPlaceClickListener {
 
@@ -66,7 +65,7 @@ public class PlacesFragment extends Fragment implements PlacesAdapter.OnPlaceCli
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         if (BuildConfig.MAPKIT_API_KEY.isEmpty()) {
-            Toast.makeText(requireContext(), R.string.mapkit_key_missing, Toast.LENGTH_LONG).show();
+//            Toast.makeText(requireContext(), R.string.mapkit_key_missing, Toast.LENGTH_LONG).show();
             mapReady = false;
             return inflater.inflate(R.layout.fragment_places_placeholder, container, false);
         }

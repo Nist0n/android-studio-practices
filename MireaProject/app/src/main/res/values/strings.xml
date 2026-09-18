@@ -116,6 +116,7 @@
     <string name="place_2_title">White Rabbit</string>
     <string name="place_2_address">Смоленская пл., 3, Москва</string>
     <string name="place_2_desc">Панорамный ресторан современной кухни.</string>
+    <string name="mapkit_key_missing">API ключ Яндекс.Карт не найден</string>
     <string name="place_3_title">Третьяковская галерея — кафе</string>
     <string name="place_3_address">Лаврушинский пер., 12, Москва</string>
     <string name="place_3_desc">Кофе и закуски у музея русского искусства.</string>

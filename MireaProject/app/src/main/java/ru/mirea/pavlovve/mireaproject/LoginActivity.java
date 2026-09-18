@@ -190,7 +190,7 @@ public class LoginActivity extends AppCompatActivity {
 
         if (message.contains("API key not valid") || isPlaceholderFirebaseConfig()) {
             statusTextView.setText(R.string.firebase_invalid_api_key);
-            detailTextView.setText(R.string.firebase_config_hint);
+//            detailTextView.setText(R.string.firebase_config_hint);
             Toast.makeText(this, R.string.firebase_invalid_api_key, Toast.LENGTH_LONG).show();
             return;
         }
